@@ -258,7 +258,7 @@
 				</fieldset>
 			<?= FORM::close()?>
 		</div>
-		<div class="modal modal-statc fade" id="processing-modal" data-backdrop="static" data-keyboard="false">
+		<div class="modal modal-statc fade publish-process" id="processing-modal" data-backdrop="static" data-keyboard="false">
 			<div class="modal-body">
 				<div class="modal-dialog">
 					<div class="modal-content">

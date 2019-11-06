@@ -88,6 +88,7 @@ class Controller_New extends Controller
         $this->template->styles = array('css/jquery.sceditor.default.theme.min.css' => 'screen',
                                         'css/jasny-bootstrap.min.css' => 'screen',
                                         'css/dropzone.min.css' => 'screen',
+                                        'css/web-custom.css' => 'screen',
                                         'css/jquery-ui-sortable.min.css' => 'screen',
                                         '//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.1/css/selectize.bootstrap3.min.css' => 'screen',
                                         '//cdn.jsdelivr.net/sweetalert/1.1.3/sweetalert.css' => 'screen');
