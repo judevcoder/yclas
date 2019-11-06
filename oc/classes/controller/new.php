@@ -116,6 +116,7 @@ class Controller_New extends Controller
             $this->template->styles = $this->template->styles + ['css/intlTelInput.css' => 'screen'];
             $this->template->scripts['footer'][] = 'js/intlTelInput.min.js';
             $this->template->scripts['footer'][] = 'js/utils.js';
+            $this->template->scripts['footer'][] = 'js/customjs/ini-country-code.js';
         }
 
         $this->template->scripts['footer'][] = 'js/new.js?v='.Core::VERSION;
